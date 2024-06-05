@@ -1,17 +1,19 @@
 {
-  "name": "helloworld",
+  "name": "7-factory-wrap",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "cmake-js compile"
+    "build":"cmake-js compile"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cmake-js": "^7.3.0"
+    "bindings": "^1.5.0",
+    "cmake-js": "^7.3.0",
+    "node-addon-api": "^8.0.0"
   },
   "binary": {
     "napi_versions": [
